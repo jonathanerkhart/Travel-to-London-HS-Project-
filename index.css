@@ -1,0 +1,114 @@
+body {
+    background-color: #534F68;
+  }
+h1 {
+    text-align: center;
+    border-style: solid; 
+    color: white;
+    border-width: 3px;
+    background-image: url(london3.jpg);
+    border-radius: 0px;
+    border-color: #06041C;
+    font-style: normal;
+    font-family: serif;
+    font-size: 50px;
+    margin: auto;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  color: #06041C;
+  font-style: normal;
+  font-family: serif;
+  border-style: double;
+}
+p {
+  color: #222038;
+  font-size: 17px;
+  font-family: serif;
+  font-style: normal;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.left {
+  width: 45%;
+}
+.right {
+  width: 45%;
+}
+.middle {
+  width: 10%;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: serif;
+}
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: darkgrey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right-style: solid;
+  border-right-color: darkgrey;
+  border-left-style: solid;
+  border-left-color: darkgrey;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rebeccapurple;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: darkgrey;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-right-style: solid;
+  border-right-color: darkgrey;
+  border-left-style: solid;
+  border-left-color: darkgrey;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: rebeccapurple;
+  color: darkgrey;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+img {
+  border-style: double;
+  border-width: 2px;
+  border-radius: 20px;
+}
+hr {
+  background-color: #06041C;
+  height: 2px;
+  border: none;
+}
